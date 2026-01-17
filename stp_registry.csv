@@ -1,0 +1,5 @@
+stp_id,daily_output_tons,storage_max_tons,lat,lon
+STP_TVM,30,500,8.468,76.936
+STP_KCH,15,300,9.967,76.298
+STP_KKD,20,400,11.25,75.78
+STP_GVR,10,200,10.597,76.038

@@ -1,0 +1,24 @@
+{
+  "simulation_metadata": {
+    "year": 2025,
+    "region": "Kerala",
+    "currency": "Carbon Credits (kg CO2 eq)"
+  },
+  "logistics_constants": {
+    "truck_capacity_tons": 10,
+    "diesel_emission_factor_kg_co2_per_km": 0.9,
+    "haversine_earth_radius_km": 6371
+  },
+  "agronomic_constants": {
+    "nitrogen_content_kg_per_ton_biosolid": 25,
+    "synthetic_n_offset_credit_kg_co2_per_kg_n": 5.0,
+    "soil_organic_carbon_gain_kg_co2_per_kg_biosolid": 0.2,
+    "leaching_penalty_kg_co2_per_kg_excess_n": 10.0,
+    "application_buffer_percent": 10
+  },
+  "environmental_thresholds": {
+    "rain_lock_threshold_mm": 30.0,
+    "forecast_window_days": 5,
+    "stp_overflow_penalty_kg_co2_per_ton": 1000.0
+  }
+}
